@@ -6,7 +6,7 @@ import mokup from './mockuphondaphoto.jpg'
 function App() {
   return (
       <>
-        <div  style={{height: '100vh', width: '100%',backgroundImage: `url(${bgImage})`, backgroundSize: 'cover', objectFit: 'cover', backgroundPosition: 'center'}}>
+        <div  style={{height: '100vh', width: '100%',backgroundImage: `url(${bgImage})`, backgroundSize: 'cover', objectFit: 'cover', backgroundPosition: '25% 75%'}}>
 
         </div>
           <div className='grid' style={{height: '100vh', width: '100%', backgroundColor: 'rgba(0,0,0,0.85)', padding: '1rem', boxSizing: 'border-box',}}>
