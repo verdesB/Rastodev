@@ -1,12 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
 import bgImage from './voiturekevin.jpg';
 import './App.css'
 import mokup from './mockuphondaphoto.jpg'
+import logo from './logokevin.svg';
 function App() {
   return (
       <>
-        <div  style={{height: '100vh', width: '100%',backgroundImage: `url(${bgImage})`, backgroundSize: 'cover', objectFit: 'cover', backgroundPosition: '25% 75%'}}>
+        <div  style={{height: '100vh', width: '100%',backgroundImage: `url(${bgImage})`, backgroundSize: 'cover', objectFit: 'cover', backgroundPosition: '25% 75%', display: 'flex', justifyContent: 'center'}}>
 
         </div>
           <div className='grid' style={{height: '100vh', width: '100%', backgroundColor: 'rgba(0,0,0,0.85)', padding: '1rem', boxSizing: 'border-box',}}>
@@ -27,9 +28,18 @@ function App() {
           <div style={{height: '100vh', width: '100%', backgroundColor: '#a8a8a8',backgroundImage: `url(${mokup})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
 
         </div>
-        <div style={{height: '100vh', width: '100%', backgroundColor: 'rgba(0,0,0,0.85)'}}>
-
-        </div>
+          <div style={{height: '100vh', width: '100%', backgroundColor: 'rgba(0,0,0,0.85)', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+              <div style={{
+                  backgroundColor: 'rgba(255,255,255,0.2)s',
+                  height: '30rem',
+                  width: '30rem',
+                  borderRadius: '50%',
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                  backdropFilter: 'blur(10px)'
+              }}><img src={logo} style={{width: '100%'}}/></div>
+          </div>
 
       </>
   );
