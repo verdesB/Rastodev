@@ -37,12 +37,7 @@
     transform: rotate(360deg);
   }
 }
-@media (min-width: 700px) {
-  .grid {
-   width: 70%;
-  }
 
-}
 
 
 /*@media (max-width: 700px) {*/
@@ -64,3 +59,22 @@
   transform: scale(1.1);
   box-shadow: rgba(236, 225, 204, 0.28) 0px 5px 8px;
 }
+@media (min-width: 320px) and (max-width: 980px) {
+  .responbox {
+    width: 100%;
+  }
+}
+ @media (min-width: 981px) {
+   .rb1 {
+     width: 49%;
+   }
+   .rb2 {
+     width: 49%;
+   }
+   .rb3 {
+     width: 69%;
+   }
+   .rb4 {
+     width: 29%;
+   }
+ }

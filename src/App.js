@@ -24,7 +24,7 @@ function App() {
               flexWrap: 'wrap',
 
           }}>
-              <div className='' style={{
+              <div className='responbox rb1' style={{
                   borderRadius: '1rem',
                   backgroundColor: 'rgba(255,255,255,0.2)',
                   backdropFilter: 'blur(10px)',
@@ -32,7 +32,7 @@ function App() {
                   display: 'flex',
                   justifyContent: 'center',
 
-                  width: '49%'
+
               }}>
 
                   <video style={{
@@ -45,11 +45,11 @@ function App() {
 
 
               </div>
-              <div style={{
+              <div className='responbox rb2' style={{
                   borderRadius: '1rem',
                   backgroundColor: 'rgba(255,255,255,0.2)',
                   backdropFilter: 'blur(10px)', boxShadow: 'rgba(255, 255, 255, 0.16) 0px 2px 8px 0px',
-                  width: '49%',
+
 
               }}>
                   <div style={{
@@ -81,8 +81,8 @@ height: '100%',
 
               </div>
 
-              <div style={{
-                  width: '69%',
+              <div className='responbox rb3' style={{
+
                   borderRadius: '1rem',
                   backgroundColor: 'rgba(255,255,255,0.2)',
                   backdropFilter: 'blur(10px)',
@@ -137,8 +137,8 @@ height: '100%',
                       <img src={hdr} style={{width: '25%', marginBottom: '2rem', marginTop: '2rem'}}/>
                   </div>
               </div>
-              <div style={{
-                  width: '29%',
+              <div className='responbox rb4' style={{
+
                   borderRadius: '1rem',
                   backgroundColor: 'rgba(255,255,255,0.2)',
                   backdropFilter: 'blur(10px)',
@@ -160,7 +160,7 @@ height: '100%',
                   }} src={video2} autoPlay loop muted/>
                   <div style={{backgroundColor: '#b9b8b7', width: '100%', borderRadius: '1rem', padding: '0 1rem', boxSizing: 'border-box'}}>
 
-                      <div style={{display: 'flex'}}>
+                      <div style={{display: 'flex', flexWrap: 'wrap'}}>
 
                           <ul style={{display: "flex", flexDirection: 'column', alignItems: 'center', width: '45%',gap: '1rem'}}>
                               <li style={{color: '#474747', fontSize: '1.4rem', textAlign: 'start', width: '100%'}}>Canon 1D-C</li>
