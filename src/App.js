@@ -12,17 +12,18 @@ function App() {
         <div  style={{height: '100vh', width: '100%',backgroundImage: `url(${bgImage})`, backgroundSize: 'cover', objectFit: 'cover', backgroundPosition: '25% 75%', display: 'flex', justifyContent: 'center'}}>
 
         </div>
-          <div className='grid' style={{ width: '100%', backgroundColor: 'rgba(0,0,0,0.85)', padding: '1rem', boxSizing: 'border-box',}}>
+          <div className='grid' style={{ width: '100%', backgroundColor: 'rgba(0,0,0,0.85)',  boxSizing: 'border-box',padding: '1rem', display: "flex", gap: "1rem", flexDirection: 'column'}}>
               <div style={{
                   borderRadius: '1rem',
                   backgroundColor: 'rgba(255,255,255,0.2)',
                   backdropFilter: 'blur(10px)',
                   boxShadow: 'rgba(255, 255, 255, 0.16) 0px 2px 8px 0px',
                   display: 'flex',
-                  justifyContent: 'center'
+                  justifyContent: 'center',
+                  height: 'auto'
               }}>
 
-                  <video style={{borderRadius: '1rem', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px', width: '100%', height: '100%', objectFit: 'cover'}}  src={video1} autoPlay loop muted/>
+                  <video style={{borderRadius: '1rem', boxShadow: 'rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px', width: '100%',height: '50%' , objectFit: 'cover'}}  src={video1} autoPlay loop muted/>
 
 
               </div>
@@ -35,7 +36,7 @@ function App() {
                   <div style={{
                       backgroundColor: '#b9b8b7',
                       width: '100%',
-                      height: '100%',
+
                       borderRadius: '1rem',
                       boxSizing: 'border-box',
                       padding: '2rem',
@@ -60,7 +61,7 @@ function App() {
                   <div style={{
                       backgroundColor: '#b9b8b7',
                       width: '100%',
-                      height: '100%',
+
                       borderRadius: '1rem',
                       boxSizing: 'border-box',
                       padding: '1rem',
@@ -91,14 +92,14 @@ function App() {
                       <p style={{color: '#474747',fontSize: '1.4rem'}}>Photographie 120x67cm, impression sur papier photo contrecollée entre une plaque de dibond et
                           un verre
                           acrylique de 3mm.</p>
-                      <p style={{color: '#474747',fontSize: '1.4rem'}}>Outils Utilisés :</p>
+                      <p style={{color: '#474747',fontSize: '1.4rem',textAlign: 'center'}}>Outils Utilisés :</p>
 
-                      <p style={{color: '#474747',fontSize: '1.4rem'}}>Canon 1D-C</p>
-                      <p style={{color: '#474747',fontSize: '1.4rem'}}>24-70mm F/8</p>
-                      <p style={{color: '#474747',fontSize: '1.4rem'}}>1/1600s</p>
-                      <p style={{color: '#474747',fontSize: '1.4rem'}}>500 ISO</p>
+                      <p style={{color: '#474747',fontSize: '1.4rem',textAlign: 'center'}}>Canon 1D-C</p>
+                      <p style={{color: '#474747',fontSize: '1.4rem',textAlign: 'center'}}>24-70mm F/8</p>
+                      <p style={{color: '#474747',fontSize: '1.4rem',textAlign: 'center'}}>1/1600s</p>
+                      <p style={{color: '#474747',fontSize: '1.4rem',textAlign: 'center'}}>500 ISO</p>
 
-                      <p style={{color: '#474747',fontSize: '1.4rem'}}>Photoshop / Lightroom</p>
+                      <p style={{color: '#474747',fontSize: '1.4rem',textAlign: 'center'}}>Photoshop / Lightroom</p>
                   </div>
               </div>
               <div style={{
