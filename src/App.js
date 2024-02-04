@@ -17,11 +17,12 @@ function App() {
               width: '100%',
               backgroundColor: 'rgba(0,0,0,0.85)',
               boxSizing: 'border-box',
-              padding: '1rem',
+              padding: '1rem 1rem 1rem 2rem',
               display: "flex",
               gap: "1rem",
               flexDirection: 'row',
-              flexWrap: 'wrap'
+              flexWrap: 'wrap',
+
           }}>
               <div className='' style={{
                   borderRadius: '1rem',
@@ -31,7 +32,7 @@ function App() {
                   display: 'flex',
                   justifyContent: 'center',
 
-                  width: '50%'
+                  width: '49%'
               }}>
 
                   <video style={{
@@ -92,7 +93,8 @@ height: '100%',
                       backgroundColor: '#b9b8b7',
                       width: '100%',
                       height: '100%',
-                      padding: '2rem',
+
+                      padding: '2rem 4rem',
                       borderRadius: '1rem',
                       boxSizing: 'border-box',
                       display: "flex",
@@ -136,7 +138,7 @@ height: '100%',
                   </div>
               </div>
               <div style={{
-                  width: '30%',
+                  width: '29%',
                   borderRadius: '1rem',
                   backgroundColor: 'rgba(255,255,255,0.2)',
                   backdropFilter: 'blur(10px)',
