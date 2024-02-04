@@ -31,7 +31,7 @@ function App() {
                   display: 'flex',
                   justifyContent: 'center',
 
-                  width: '49%'
+                  width: '50%'
               }}>
 
                   <video style={{
@@ -54,7 +54,7 @@ function App() {
                   <div style={{
                       backgroundColor: '#b9b8b7',
                       width: '100%',
-
+height: '100%',
                       borderRadius: '1rem',
                       boxSizing: 'border-box',
                       padding: '4rem',
@@ -81,7 +81,7 @@ function App() {
               </div>
 
               <div style={{
-                  width: '68%',
+                  width: '69%',
                   borderRadius: '1rem',
                   backgroundColor: 'rgba(255,255,255,0.2)',
                   backdropFilter: 'blur(10px)',
@@ -205,7 +205,7 @@ function App() {
                   justifyContent: 'center',
                   alignItems: 'center',
                   backdropFilter: 'blur(10px)'
-              }}><img src={logo} style={{width: '100%', color: 'rgba(255,255,255,0.03)', marginBottom: '4rem'}}/>
+              }}><img className='imghover' src={logo} style={{borderRadius: '50%' ,width: '100%', color: 'rgba(255,255,255,0.03)', marginBottom: '4rem'}}/>
                   <p  style={{
                       textAlign: 'center',
                       color: '#474747',
