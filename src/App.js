@@ -7,9 +7,12 @@ import logo from './logo10.svg';
 import video1 from './presacri.mp4';
 import video2 from './Final.mp4'
 import hdr  from './hdr4.svg'
+import { Analytics } from "@vercel/analytics/react"
+
 function App() {
   return (
       <>
+          <Analytics/>
         <div className='container_1'  style={{height: '100vh', width: '100%',backgroundImage: `url(${bgImage})`, backgroundSize: 'cover', objectFit: 'cover', backgroundPosition: '25% 75%', display: 'flex', justifyContent: 'center'}}>
 
         </div>
