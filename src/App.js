@@ -12,7 +12,7 @@ import { Analytics } from "@vercel/analytics/react"
 function App() {
   return (
       <>
-          <Analytics/>
+
         <div className='container_1'  style={{height: '100vh', width: '100%',backgroundImage: `url(${bgImage})`, backgroundSize: 'cover', objectFit: 'cover', backgroundPosition: '25% 75%', display: 'flex', justifyContent: 'center'}}>
 
         </div>
